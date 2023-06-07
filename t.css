@@ -1,0 +1,21 @@
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.cell {
+  border: 1px solid #ccc;
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+button {
+  margin-top: 10px;
+}
